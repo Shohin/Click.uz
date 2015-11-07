@@ -7,12 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8410B28D1AC9D26E003F4F1D /* registration.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410B28C1AC9D26E003F4F1D /* registration.png */; };
+		84140BDA1AA76F31000ECC1F /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84140BD91AA76F31000ECC1F /* arrow.png */; };
+		84140BE41AA78650000ECC1F /* ItemCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84140BDD1AA78650000ECC1F /* ItemCellBackgroundView.m */; };
+		84140BE51AA78650000ECC1F /* ItemPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84140BDF1AA78650000ECC1F /* ItemPanel.m */; };
+		84140BE61AA78650000ECC1F /* ItemPanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84140BE11AA78650000ECC1F /* ItemPanelCell.m */; };
+		84140BE71AA78650000ECC1F /* ItemPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84140BE31AA78650000ECC1F /* ItemPopupBackgroundView.m */; };
+		84140BEE1AA78B45000ECC1F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 84140BED1AA78B45000ECC1F /* UIView+Frame.m */; };
 		84384FB51AA250BA00AFC40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84384FB41AA250BA00AFC40E /* AppDelegate.swift */; };
 		84384FB71AA250BA00AFC40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84384FB61AA250BA00AFC40E /* ViewController.swift */; };
 		84384FBA1AA250BA00AFC40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84384FB81AA250BA00AFC40E /* Main.storyboard */; };
-		84384FBC1AA250BA00AFC40E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84384FBB1AA250BA00AFC40E /* Images.xcassets */; };
 		84384FBF1AA250BA00AFC40E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84384FBD1AA250BA00AFC40E /* LaunchScreen.xib */; };
 		84384FCB1AA250BA00AFC40E /* Click_uzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84384FCA1AA250BA00AFC40E /* Click_uzTests.swift */; };
+		84384FD61AA2511800AFC40E /* ClickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84384FD41AA2511800AFC40E /* ClickModel.swift */; };
+		84384FD71AA2511800AFC40E /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84384FD51AA2511800AFC40E /* globals.swift */; };
+		84384FDC1AA256DA00AFC40E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84384FDB1AA256DA00AFC40E /* Images.xcassets */; };
+		8467C1151B17849700DB4414 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467C1141B17849700DB4414 /* RegistrationView.swift */; };
+		84C9F3541AA60EDB00DF0E30 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9F3531AA60EDB00DF0E30 /* PopupView.swift */; };
+		84C9F3561AA60EF000DF0E30 /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9F3551AA60EF000DF0E30 /* FieldView.swift */; };
+		84C9F3581AA6154400DF0E30 /* FieldViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9F3571AA6154400DF0E30 /* FieldViewItem.swift */; };
+		84CDE9741AA3AEC800E475D0 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE9731AA3AEC800E475D0 /* PaymentController.swift */; };
+		84CDE97A1AA3B00A00E475D0 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE9791AA3B00A00E475D0 /* SettingsController.swift */; };
+		84FAC5AF1AA4BC65007FBAA3 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC5AE1AA4BC65007FBAA3 /* GridView.swift */; };
+		84FAC5B11AA4BE13007FBAA3 /* GridButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAC5B01AA4BE13007FBAA3 /* GridButton.swift */; };
+		84FAC5C31AA4E03B007FBAA3 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B21AA4E03B007FBAA3 /* account.png */; };
+		84FAC5C41AA4E03B007FBAA3 /* balance_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B31AA4E03B007FBAA3 /* balance_icon.png */; };
+		84FAC5C51AA4E03B007FBAA3 /* change_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B41AA4E03B007FBAA3 /* change_pin.png */; };
+		84FAC5C61AA4E03B007FBAA3 /* communale_pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B51AA4E03B007FBAA3 /* communale_pay.png */; };
+		84FAC5C71AA4E03B007FBAA3 /* information_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B61AA4E03B007FBAA3 /* information_icon@2x.png */; };
+		84FAC5C81AA4E03B007FBAA3 /* internet_connection.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B71AA4E03B007FBAA3 /* internet_connection.png */; };
+		84FAC5C91AA4E03B007FBAA3 /* lang.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B81AA4E03B007FBAA3 /* lang.png */; };
+		84FAC5CA1AA4E03B007FBAA3 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5B91AA4E03B007FBAA3 /* logo@2x.png */; };
+		84FAC5CB1AA4E03B007FBAA3 /* mobile_communication.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5BA1AA4E03B007FBAA3 /* mobile_communication.png */; };
+		84FAC5CC1AA4E03B007FBAA3 /* payment_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5BB1AA4E03B007FBAA3 /* payment_icon.png */; };
+		84FAC5CD1AA4E03B007FBAA3 /* settings_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5BC1AA4E03B007FBAA3 /* settings_icon@2x.png */; };
+		84FAC5CE1AA4E03B007FBAA3 /* sms_inform.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5BD1AA4E03B007FBAA3 /* sms_inform.png */; };
+		84FAC5CF1AA4E03B007FBAA3 /* SMS-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5BE1AA4E03B007FBAA3 /* SMS-icon.png */; };
+		84FAC5D01AA4E03B007FBAA3 /* transfer_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5BF1AA4E03B007FBAA3 /* transfer_icon.png */; };
+		84FAC5D11AA4E03B007FBAA3 /* tv_pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5C01AA4E03B007FBAA3 /* tv_pay.png */; };
+		84FAC5D21AA4E03B007FBAA3 /* web_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5C11AA4E03B007FBAA3 /* web_icon.png */; };
+		84FAC5D31AA4E03B007FBAA3 /* web_pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FAC5C21AA4E03B007FBAA3 /* web_pay.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +60,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8410B28C1AC9D26E003F4F1D /* registration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registration.png; sourceTree = "<group>"; };
+		84140BD91AA76F31000ECC1F /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		84140BDC1AA78650000ECC1F /* ItemCellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCellBackgroundView.h; sourceTree = "<group>"; };
+		84140BDD1AA78650000ECC1F /* ItemCellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCellBackgroundView.m; sourceTree = "<group>"; };
+		84140BDE1AA78650000ECC1F /* ItemPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemPanel.h; sourceTree = "<group>"; };
+		84140BDF1AA78650000ECC1F /* ItemPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPanel.m; sourceTree = "<group>"; };
+		84140BE01AA78650000ECC1F /* ItemPanelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemPanelCell.h; sourceTree = "<group>"; };
+		84140BE11AA78650000ECC1F /* ItemPanelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPanelCell.m; sourceTree = "<group>"; };
+		84140BE21AA78650000ECC1F /* ItemPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemPopupBackgroundView.h; sourceTree = "<group>"; };
+		84140BE31AA78650000ECC1F /* ItemPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPopupBackgroundView.m; sourceTree = "<group>"; };
+		84140BEB1AA7887C000ECC1F /* Click.uz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Click.uz-Bridging-Header.h"; sourceTree = "<group>"; };
+		84140BEC1AA78B45000ECC1F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		84140BED1AA78B45000ECC1F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		84384FAF1AA250BA00AFC40E /* Click.uz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Click.uz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84384FB31AA250BA00AFC40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84384FB41AA250BA00AFC40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84384FB61AA250BA00AFC40E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84384FB91AA250BA00AFC40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84384FBB1AA250BA00AFC40E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84384FBE1AA250BA00AFC40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84384FC41AA250BA00AFC40E /* Click.uzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Click.uzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84384FC91AA250BA00AFC40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84384FCA1AA250BA00AFC40E /* Click_uzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click_uzTests.swift; sourceTree = "<group>"; };
+		84384FD41AA2511800AFC40E /* ClickModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickModel.swift; sourceTree = "<group>"; };
+		84384FD51AA2511800AFC40E /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
+		84384FDB1AA256DA00AFC40E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8467C1141B17849700DB4414 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		84C9F3531AA60EDB00DF0E30 /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		84C9F3551AA60EF000DF0E30 /* FieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		84C9F3571AA6154400DF0E30 /* FieldViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldViewItem.swift; sourceTree = "<group>"; };
+		84CDE9731AA3AEC800E475D0 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+		84CDE9791AA3B00A00E475D0 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		84FAC5AE1AA4BC65007FBAA3 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		84FAC5B01AA4BE13007FBAA3 /* GridButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridButton.swift; sourceTree = "<group>"; };
+		84FAC5B21AA4E03B007FBAA3 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		84FAC5B31AA4E03B007FBAA3 /* balance_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance_icon.png; sourceTree = "<group>"; };
+		84FAC5B41AA4E03B007FBAA3 /* change_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change_pin.png; sourceTree = "<group>"; };
+		84FAC5B51AA4E03B007FBAA3 /* communale_pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = communale_pay.png; sourceTree = "<group>"; };
+		84FAC5B61AA4E03B007FBAA3 /* information_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information_icon@2x.png"; sourceTree = "<group>"; };
+		84FAC5B71AA4E03B007FBAA3 /* internet_connection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = internet_connection.png; sourceTree = "<group>"; };
+		84FAC5B81AA4E03B007FBAA3 /* lang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lang.png; sourceTree = "<group>"; };
+		84FAC5B91AA4E03B007FBAA3 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		84FAC5BA1AA4E03B007FBAA3 /* mobile_communication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile_communication.png; sourceTree = "<group>"; };
+		84FAC5BB1AA4E03B007FBAA3 /* payment_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment_icon.png; sourceTree = "<group>"; };
+		84FAC5BC1AA4E03B007FBAA3 /* settings_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_icon@2x.png"; sourceTree = "<group>"; };
+		84FAC5BD1AA4E03B007FBAA3 /* sms_inform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms_inform.png; sourceTree = "<group>"; };
+		84FAC5BE1AA4E03B007FBAA3 /* SMS-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMS-icon.png"; sourceTree = "<group>"; };
+		84FAC5BF1AA4E03B007FBAA3 /* transfer_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transfer_icon.png; sourceTree = "<group>"; };
+		84FAC5C01AA4E03B007FBAA3 /* tv_pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv_pay.png; sourceTree = "<group>"; };
+		84FAC5C11AA4E03B007FBAA3 /* web_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_icon.png; sourceTree = "<group>"; };
+		84FAC5C21AA4E03B007FBAA3 /* web_pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_pay.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +130,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84140BDB1AA78650000ECC1F /* ItemChoosePanel */ = {
+			isa = PBXGroup;
+			children = (
+				84140BEC1AA78B45000ECC1F /* UIView+Frame.h */,
+				84140BED1AA78B45000ECC1F /* UIView+Frame.m */,
+				84140BDC1AA78650000ECC1F /* ItemCellBackgroundView.h */,
+				84140BDD1AA78650000ECC1F /* ItemCellBackgroundView.m */,
+				84140BDE1AA78650000ECC1F /* ItemPanel.h */,
+				84140BDF1AA78650000ECC1F /* ItemPanel.m */,
+				84140BE01AA78650000ECC1F /* ItemPanelCell.h */,
+				84140BE11AA78650000ECC1F /* ItemPanelCell.m */,
+				84140BE21AA78650000ECC1F /* ItemPopupBackgroundView.h */,
+				84140BE31AA78650000ECC1F /* ItemPopupBackgroundView.m */,
+			);
+			path = ItemChoosePanel;
+			sourceTree = "<group>";
+		};
 		84384FA61AA250B900AFC40E = {
 			isa = PBXGroup;
 			children = (
 				84384FB11AA250BA00AFC40E /* Click.uz */,
 				84384FC71AA250BA00AFC40E /* Click.uzTests */,
+				84384FDD1AA25CE000AFC40E /* Resource */,
 				84384FB01AA250BA00AFC40E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,11 +169,23 @@
 		84384FB11AA250BA00AFC40E /* Click.uz */ = {
 			isa = PBXGroup;
 			children = (
+				84140BDB1AA78650000ECC1F /* ItemChoosePanel */,
+				84384FDB1AA256DA00AFC40E /* Images.xcassets */,
+				84384FD41AA2511800AFC40E /* ClickModel.swift */,
+				84384FD51AA2511800AFC40E /* globals.swift */,
 				84384FB41AA250BA00AFC40E /* AppDelegate.swift */,
 				84384FB61AA250BA00AFC40E /* ViewController.swift */,
-				84384FB81AA250BA00AFC40E /* Main.storyboard */,
-				84384FBB1AA250BA00AFC40E /* Images.xcassets */,
+				84CDE9731AA3AEC800E475D0 /* PaymentController.swift */,
+				84CDE9791AA3B00A00E475D0 /* SettingsController.swift */,
+				8467C1141B17849700DB4414 /* RegistrationView.swift */,
+				84FAC5AE1AA4BC65007FBAA3 /* GridView.swift */,
+				84FAC5B01AA4BE13007FBAA3 /* GridButton.swift */,
+				84C9F3531AA60EDB00DF0E30 /* PopupView.swift */,
+				84C9F3551AA60EF000DF0E30 /* FieldView.swift */,
+				84C9F3571AA6154400DF0E30 /* FieldViewItem.swift */,
+				84140BEB1AA7887C000ECC1F /* Click.uz-Bridging-Header.h */,
 				84384FBD1AA250BA00AFC40E /* LaunchScreen.xib */,
+				84384FB81AA250BA00AFC40E /* Main.storyboard */,
 				84384FB21AA250BA00AFC40E /* Supporting Files */,
 			);
 			path = Click.uz;
@@ -111,6 +215,32 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		84384FDD1AA25CE000AFC40E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8410B28C1AC9D26E003F4F1D /* registration.png */,
+				84140BD91AA76F31000ECC1F /* arrow.png */,
+				84FAC5B21AA4E03B007FBAA3 /* account.png */,
+				84FAC5B31AA4E03B007FBAA3 /* balance_icon.png */,
+				84FAC5B41AA4E03B007FBAA3 /* change_pin.png */,
+				84FAC5B51AA4E03B007FBAA3 /* communale_pay.png */,
+				84FAC5B61AA4E03B007FBAA3 /* information_icon@2x.png */,
+				84FAC5B71AA4E03B007FBAA3 /* internet_connection.png */,
+				84FAC5B81AA4E03B007FBAA3 /* lang.png */,
+				84FAC5B91AA4E03B007FBAA3 /* logo@2x.png */,
+				84FAC5BA1AA4E03B007FBAA3 /* mobile_communication.png */,
+				84FAC5BB1AA4E03B007FBAA3 /* payment_icon.png */,
+				84FAC5BC1AA4E03B007FBAA3 /* settings_icon@2x.png */,
+				84FAC5BD1AA4E03B007FBAA3 /* sms_inform.png */,
+				84FAC5BE1AA4E03B007FBAA3 /* SMS-icon.png */,
+				84FAC5BF1AA4E03B007FBAA3 /* transfer_icon.png */,
+				84FAC5C01AA4E03B007FBAA3 /* tv_pay.png */,
+				84FAC5C11AA4E03B007FBAA3 /* web_icon.png */,
+				84FAC5C21AA4E03B007FBAA3 /* web_pay.png */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -161,6 +291,7 @@
 				TargetAttributes = {
 					84384FAE1AA250BA00AFC40E = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8P8R5SDSBJ;
 					};
 					84384FC31AA250BA00AFC40E = {
 						CreatedOnToolsVersion = 6.1;
@@ -192,9 +323,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8410B28D1AC9D26E003F4F1D /* registration.png in Resources */,
+				84FAC5CB1AA4E03B007FBAA3 /* mobile_communication.png in Resources */,
+				84FAC5D21AA4E03B007FBAA3 /* web_icon.png in Resources */,
+				84FAC5CC1AA4E03B007FBAA3 /* payment_icon.png in Resources */,
 				84384FBA1AA250BA00AFC40E /* Main.storyboard in Resources */,
+				84FAC5C91AA4E03B007FBAA3 /* lang.png in Resources */,
+				84FAC5D11AA4E03B007FBAA3 /* tv_pay.png in Resources */,
+				84FAC5CA1AA4E03B007FBAA3 /* logo@2x.png in Resources */,
+				84384FDC1AA256DA00AFC40E /* Images.xcassets in Resources */,
+				84FAC5C41AA4E03B007FBAA3 /* balance_icon.png in Resources */,
+				84FAC5D31AA4E03B007FBAA3 /* web_pay.png in Resources */,
 				84384FBF1AA250BA00AFC40E /* LaunchScreen.xib in Resources */,
-				84384FBC1AA250BA00AFC40E /* Images.xcassets in Resources */,
+				84FAC5CF1AA4E03B007FBAA3 /* SMS-icon.png in Resources */,
+				84FAC5C31AA4E03B007FBAA3 /* account.png in Resources */,
+				84FAC5D01AA4E03B007FBAA3 /* transfer_icon.png in Resources */,
+				84FAC5CE1AA4E03B007FBAA3 /* sms_inform.png in Resources */,
+				84FAC5C81AA4E03B007FBAA3 /* internet_connection.png in Resources */,
+				84FAC5C71AA4E03B007FBAA3 /* information_icon@2x.png in Resources */,
+				84FAC5CD1AA4E03B007FBAA3 /* settings_icon@2x.png in Resources */,
+				84FAC5C51AA4E03B007FBAA3 /* change_pin.png in Resources */,
+				84140BDA1AA76F31000ECC1F /* arrow.png in Resources */,
+				84FAC5C61AA4E03B007FBAA3 /* communale_pay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +362,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C9F3541AA60EDB00DF0E30 /* PopupView.swift in Sources */,
+				84140BE61AA78650000ECC1F /* ItemPanelCell.m in Sources */,
+				84FAC5B11AA4BE13007FBAA3 /* GridButton.swift in Sources */,
+				84CDE9741AA3AEC800E475D0 /* PaymentController.swift in Sources */,
+				84140BE51AA78650000ECC1F /* ItemPanel.m in Sources */,
+				8467C1151B17849700DB4414 /* RegistrationView.swift in Sources */,
+				84FAC5AF1AA4BC65007FBAA3 /* GridView.swift in Sources */,
+				84384FD71AA2511800AFC40E /* globals.swift in Sources */,
+				84CDE97A1AA3B00A00E475D0 /* SettingsController.swift in Sources */,
+				84140BEE1AA78B45000ECC1F /* UIView+Frame.m in Sources */,
 				84384FB71AA250BA00AFC40E /* ViewController.swift in Sources */,
 				84384FB51AA250BA00AFC40E /* AppDelegate.swift in Sources */,
+				84140BE71AA78650000ECC1F /* ItemPopupBackgroundView.m in Sources */,
+				84384FD61AA2511800AFC40E /* ClickModel.swift in Sources */,
+				84140BE41AA78650000ECC1F /* ItemCellBackgroundView.m in Sources */,
+				84C9F3581AA6154400DF0E30 /* FieldViewItem.swift in Sources */,
+				84C9F3561AA60EF000DF0E30 /* FieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -336,9 +501,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Click.uz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Click.uz/Click.uz-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -346,9 +515,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Click.uz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Click.uz/Click.uz-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +578,7 @@
 				84384FD01AA250BA00AFC40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84384FD11AA250BA00AFC40E /* Build configuration list for PBXNativeTarget "Click.uzTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +587,7 @@
 				84384FD31AA250BA00AFC40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
